@@ -1,5 +1,3 @@
-
-
 #css-zen-garden {
     background-image: url("alien_backgound.jpg");
     background-repeat: no-repeat;
@@ -9,15 +7,6 @@
 
 
 .main.supporting, .intro {margin-right: 250px}
-
-
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 250px;
-    background-image: url("alien_sidebar.jpg");
-    color: black}
 
 
 h1, h2 {
@@ -36,7 +25,6 @@ h3 {
 }
 
 
-
 #zen-intro {
     text-align:  justify;
     margin-left: 400px;
@@ -44,6 +32,7 @@ h3 {
 
 
 #zen-summary, #zen-preamble {padding-top: 20px;}
+
 
 #zen-explanation, #zen-participation, #zen-benefits {
     text-align: justify;
@@ -56,19 +45,29 @@ p {
 }
 
 
+footer {
+    text-align: center;
+    background-color: gray;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    background-image: url("alien_sidebar.jpg");
+    color: black}
+
+
 #design-selection {
     font-size: 17px;
     text-align: left;
 }
 
+
 .sidebar a {
     text-decoration: underline;
     color: red;
     font-style: bold;
-}
-
-
-footer {
-    text-align: center;
-    background-color: gray;
 }
